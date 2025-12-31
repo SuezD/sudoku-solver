@@ -4,6 +4,7 @@ SIZE = 9
 BOX = 3
 DIGITS = set(range(1, 10))
 
+
 def row(grid, r):
     return grid[r]
 

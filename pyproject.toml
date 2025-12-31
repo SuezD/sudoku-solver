@@ -27,5 +27,10 @@ testpaths = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=9.0.2"
+  "pytest>=9.0.2",
+  "flake8"
 ]
+
+
+[tool.flake8]
+exclude = ["venv", ".venv"]

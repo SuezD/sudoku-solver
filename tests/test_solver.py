@@ -20,7 +20,10 @@ class TestNextStep:
         grid[0][0] = 1
         grid[0][1] = 1
 
-        with pytest.raises(ValueError, match="Input grid is not a valid sudoku grid"):
+        with pytest.raises(
+            ValueError,
+            match="Input grid is not a valid sudoku grid"
+        ):
             next_step(grid)
 
     def test_no_logical_step_empty_grid(self, empty_grid):

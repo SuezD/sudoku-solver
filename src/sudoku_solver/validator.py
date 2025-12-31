@@ -1,5 +1,6 @@
 from .._grid import row, col, box, empties, candidates, copy
 
+
 def is_valid(grid):
     """Check if the Sudoku grid is valid (no duplicates)"""
     def no_duplicates(values):
