@@ -1,6 +1,6 @@
 import pytest
 from src._grid import Grid, copy
-from src.solver import (
+from src.sudoku_solver.solver import (
     next_step,
     naked_or_hidden_single,
     naked_or_hidden_pair,
