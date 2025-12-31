@@ -5,12 +5,12 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry]
-name = "sudoku-solver"
+name = "sudoku-helper"
 version = "0.1.0"
 description = "A Python library for solving and validating Sudoku puzzles."
 authors = ["Suez Dirie <suez.dirie@hotmail.com>"]
 readme = "README.md"
-packages = [{ include = "sudoku_solver", from = "src" }]
+packages = [{ include = "sudoku_helper", from = "src" }]
 
 [tool.poetry.dependencies]
 python = ">=3.10"

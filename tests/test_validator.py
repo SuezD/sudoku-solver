@@ -1,6 +1,6 @@
 import pytest
 from src._grid import Grid
-from src.sudoku_solver.validator import (
+from src.sudoku_helper.validator import (
   is_valid,
   has_one_solution,
 )
