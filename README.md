@@ -1,5 +1,5 @@
 
-# Sudoku Solver
+# Sudoku Helper
 
 A Python library for solving and validating Sudoku puzzles programmatically.
 
@@ -17,14 +17,14 @@ A Python library for solving and validating Sudoku puzzles programmatically.
 ### From PyPI (recommended)
 
 ```bash
-pip install sudoku-solver
+pip install sudoku-helper
 ```
 
 ### Development install (from source)
 
 ```bash
-git clone https://github.com/yourusername/sudoku-solver.git
-cd sudoku-solver
+git clone https://github.com/yourusername/sudoku-helper.git
+cd sudoku-helper
 pip install -r requirements.txt
 ```
 
@@ -33,8 +33,8 @@ pip install -r requirements.txt
 Import the library and use its functions in your Python code:
 
 ```python
-from validator import is_valid, has_one_solution
-from solver import next_step
+from sudoku_helper.validator import is_valid, has_one_solution
+from sudoku_helper.solver import next_step
 
 # Example 9x9 Sudoku grid (0 or None for empty cells)
 grid = [
