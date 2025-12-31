@@ -24,7 +24,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-          poetry install --no-interaction --no-root
+          poetry install --no-interaction
+
+      - name: Lint with flake8
+        run: |
+          poetry run flake8 src/ tests/
+
+      - name: Run tests
+        run: |
+          poetry run pytest
 
       - name: Build package
         run: |
