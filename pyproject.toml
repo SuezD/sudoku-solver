@@ -10,7 +10,7 @@ authors = [
 	{ name = "Suez Dirie", email = "suez.dirie@hotmail.com" }
 ]
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = []
 
 [tool.setuptools.packages.find]
