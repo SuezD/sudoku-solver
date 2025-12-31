@@ -1,6 +1,6 @@
 import pytest
-from src._grid import Grid, copy
-from src.sudoku_helper.solver import (
+from sudoku_helper._grid import Grid, copy
+from sudoku_helper.solver import (
     next_step,
     naked_or_hidden_single,
     naked_or_hidden_pair,

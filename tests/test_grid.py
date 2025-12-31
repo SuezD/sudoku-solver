@@ -1,5 +1,5 @@
 import pytest
-from src._grid import row, col, box, candidates, empties, copy, Grid
+from sudoku_helper._grid import row, col, box, candidates, empties, copy, Grid
 
 
 @pytest.fixture

@@ -1,5 +1,5 @@
-from .._grid import candidates
-from .._types import Step
+from ._grid import candidates
+from ._types import Step
 from .validator import is_valid
 
 

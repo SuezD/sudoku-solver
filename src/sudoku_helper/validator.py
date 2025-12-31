@@ -1,4 +1,4 @@
-from .._grid import row, col, box, empties, candidates, copy
+from ._grid import row, col, box, empties, candidates, copy
 
 
 def is_valid(grid):
